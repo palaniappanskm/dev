@@ -1,0 +1,6 @@
+# Ignore development-specific files
+.git
+.gitignore
+.dockerignore
+README.md
+
