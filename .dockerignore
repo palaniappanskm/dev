@@ -3,4 +3,9 @@
 .gitignore
 .dockerignore
 README.md
+# Ignore development-specific files
+.git
+.gitignore
+.dockerignore
+README.md
 

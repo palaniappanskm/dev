@@ -12,7 +12,7 @@
 ~h
 # Command Line History (newest to oldest):
 :wq
-|2,0,1706524682,,"wq"
+|2,0,1706610725,,"wq"
 
 # Search String History (newest to oldest):
 
@@ -25,28 +25,66 @@
 # Registers:
 
 # File marks:
-'0  6  0  ~/.dockerignore
-|4,48,6,0,1706524682,"~/.dockerignore"
-'1  8  0  ~/.gitignore
-|4,49,8,0,1706524646,"~/.gitignore"
-'2  5  0  ~/deploy.sh
-|4,50,5,0,1706524120,"~/deploy.sh"
-'3  5  0  ~/build.sh
-|4,51,5,0,1706524076,"~/build.sh"
-'4  9  0  ~/docker-compose.yml
-|4,52,9,0,1706523987,"~/docker-compose.yml"
-'5  24  0  ~/Dockerfile
-|4,53,24,0,1706523898,"~/Dockerfile"
+'0  11  0  ~/.dockerignore
+|4,48,11,0,1706610725,"~/.dockerignore"
+'1  15  0  ~/.gitignore
+|4,49,15,0,1706610682,"~/.gitignore"
+'2  6  0  ~/.dockerignore
+|4,50,6,0,1706524682,"~/.dockerignore"
+'3  6  0  ~/.dockerignore
+|4,51,6,0,1706524682,"~/.dockerignore"
+'4  8  0  ~/.gitignore
+|4,52,8,0,1706524646,"~/.gitignore"
+'5  8  0  ~/.gitignore
+|4,53,8,0,1706524646,"~/.gitignore"
+'6  5  0  ~/deploy.sh
+|4,54,5,0,1706524120,"~/deploy.sh"
+'7  5  0  ~/build.sh
+|4,55,5,0,1706524076,"~/build.sh"
+'8  9  0  ~/docker-compose.yml
+|4,56,9,0,1706523987,"~/docker-compose.yml"
+'9  24  0  ~/Dockerfile
+|4,57,24,0,1706523898,"~/Dockerfile"
 
 # Jumplist (newest first):
+-'  11  0  ~/.dockerignore
+|4,39,11,0,1706610725,"~/.dockerignore"
+-'  6  0  ~/.dockerignore
+|4,39,6,0,1706610707,"~/.dockerignore"
+-'  15  0  ~/.gitignore
+|4,39,15,0,1706610682,"~/.gitignore"
+-'  15  0  ~/.gitignore
+|4,39,15,0,1706610682,"~/.gitignore"
+-'  8  0  ~/.gitignore
+|4,39,8,0,1706610669,"~/.gitignore"
+-'  8  0  ~/.gitignore
+|4,39,8,0,1706610669,"~/.gitignore"
 -'  6  0  ~/.dockerignore
 |4,39,6,0,1706524682,"~/.dockerignore"
+-'  6  0  ~/.dockerignore
+|4,39,6,0,1706524682,"~/.dockerignore"
+-'  1  0  ~/.dockerignore
+|4,39,1,0,1706524673,"~/.dockerignore"
+-'  1  0  ~/.dockerignore
+|4,39,1,0,1706524673,"~/.dockerignore"
 -'  1  0  ~/.dockerignore
 |4,39,1,0,1706524673,"~/.dockerignore"
 -'  8  0  ~/.gitignore
 |4,39,8,0,1706524646,"~/.gitignore"
 -'  8  0  ~/.gitignore
 |4,39,8,0,1706524646,"~/.gitignore"
+-'  8  0  ~/.gitignore
+|4,39,8,0,1706524646,"~/.gitignore"
+-'  8  0  ~/.gitignore
+|4,39,8,0,1706524646,"~/.gitignore"
+-'  1  0  ~/.gitignore
+|4,39,1,0,1706524641,"~/.gitignore"
+-'  1  0  ~/.gitignore
+|4,39,1,0,1706524641,"~/.gitignore"
+-'  1  0  ~/.gitignore
+|4,39,1,0,1706524641,"~/.gitignore"
+-'  1  0  ~/.gitignore
+|4,39,1,0,1706524641,"~/.gitignore"
 -'  1  0  ~/.gitignore
 |4,39,1,0,1706524641,"~/.gitignore"
 -'  1  0  ~/.gitignore
@@ -59,6 +97,54 @@
 |4,39,5,0,1706524120,"~/deploy.sh"
 -'  5  0  ~/deploy.sh
 |4,39,5,0,1706524120,"~/deploy.sh"
+-'  5  0  ~/deploy.sh
+|4,39,5,0,1706524120,"~/deploy.sh"
+-'  5  0  ~/deploy.sh
+|4,39,5,0,1706524120,"~/deploy.sh"
+-'  5  0  ~/deploy.sh
+|4,39,5,0,1706524120,"~/deploy.sh"
+-'  5  0  ~/deploy.sh
+|4,39,5,0,1706524120,"~/deploy.sh"
+-'  5  0  ~/deploy.sh
+|4,39,5,0,1706524120,"~/deploy.sh"
+-'  5  0  ~/deploy.sh
+|4,39,5,0,1706524120,"~/deploy.sh"
+-'  5  0  ~/deploy.sh
+|4,39,5,0,1706524120,"~/deploy.sh"
+-'  5  0  ~/deploy.sh
+|4,39,5,0,1706524120,"~/deploy.sh"
+-'  5  0  ~/deploy.sh
+|4,39,5,0,1706524120,"~/deploy.sh"
+-'  5  0  ~/deploy.sh
+|4,39,5,0,1706524120,"~/deploy.sh"
+-'  5  0  ~/deploy.sh
+|4,39,5,0,1706524120,"~/deploy.sh"
+-'  5  0  ~/deploy.sh
+|4,39,5,0,1706524120,"~/deploy.sh"
+-'  1  0  ~/deploy.sh
+|4,39,1,0,1706524112,"~/deploy.sh"
+-'  1  0  ~/deploy.sh
+|4,39,1,0,1706524112,"~/deploy.sh"
+-'  1  0  ~/deploy.sh
+|4,39,1,0,1706524112,"~/deploy.sh"
+-'  1  0  ~/deploy.sh
+|4,39,1,0,1706524112,"~/deploy.sh"
+-'  1  0  ~/deploy.sh
+|4,39,1,0,1706524112,"~/deploy.sh"
+-'  1  0  ~/deploy.sh
+|4,39,1,0,1706524112,"~/deploy.sh"
+-'  1  0  ~/deploy.sh
+|4,39,1,0,1706524112,"~/deploy.sh"
+-'  1  0  ~/deploy.sh
+|4,39,1,0,1706524112,"~/deploy.sh"
+-'  1  0  ~/deploy.sh
+|4,39,1,0,1706524112,"~/deploy.sh"
+-'  1  0  ~/deploy.sh
+|4,39,1,0,1706524112,"~/deploy.sh"
+-'  1  0  ~/deploy.sh
+|4,39,1,0,1706524112,"~/deploy.sh"
+-'  1  0  ~/deploy.sh
+|4,39,1,0,1706524112,"~/deploy.sh"
 -'  1  0  ~/deploy.sh
 |4,39,1,0,1706524112,"~/deploy.sh"
 -'  1  0  ~/deploy.sh
@@ -83,6 +169,54 @@
 |4,39,5,0,1706524076,"~/build.sh"
 -'  5  0  ~/build.sh
 |4,39,5,0,1706524076,"~/build.sh"
+-'  5  0  ~/build.sh
+|4,39,5,0,1706524076,"~/build.sh"
+-'  5  0  ~/build.sh
+|4,39,5,0,1706524076,"~/build.sh"
+-'  5  0  ~/build.sh
+|4,39,5,0,1706524076,"~/build.sh"
+-'  5  0  ~/build.sh
+|4,39,5,0,1706524076,"~/build.sh"
+-'  5  0  ~/build.sh
+|4,39,5,0,1706524076,"~/build.sh"
+-'  5  0  ~/build.sh
+|4,39,5,0,1706524076,"~/build.sh"
+-'  5  0  ~/build.sh
+|4,39,5,0,1706524076,"~/build.sh"
+-'  5  0  ~/build.sh
+|4,39,5,0,1706524076,"~/build.sh"
+-'  5  0  ~/build.sh
+|4,39,5,0,1706524076,"~/build.sh"
+-'  5  0  ~/build.sh
+|4,39,5,0,1706524076,"~/build.sh"
+-'  5  0  ~/build.sh
+|4,39,5,0,1706524076,"~/build.sh"
+-'  5  0  ~/build.sh
+|4,39,5,0,1706524076,"~/build.sh"
+-'  5  0  ~/build.sh
+|4,39,5,0,1706524076,"~/build.sh"
+-'  5  0  ~/build.sh
+|4,39,5,0,1706524076,"~/build.sh"
+-'  5  0  ~/build.sh
+|4,39,5,0,1706524076,"~/build.sh"
+-'  5  0  ~/build.sh
+|4,39,5,0,1706524076,"~/build.sh"
+-'  5  0  ~/build.sh
+|4,39,5,0,1706524076,"~/build.sh"
+-'  5  0  ~/build.sh
+|4,39,5,0,1706524076,"~/build.sh"
+-'  5  0  ~/build.sh
+|4,39,5,0,1706524076,"~/build.sh"
+-'  5  0  ~/build.sh
+|4,39,5,0,1706524076,"~/build.sh"
+-'  5  0  ~/build.sh
+|4,39,5,0,1706524076,"~/build.sh"
+-'  5  0  ~/build.sh
+|4,39,5,0,1706524076,"~/build.sh"
+-'  5  0  ~/build.sh
+|4,39,5,0,1706524076,"~/build.sh"
+-'  5  0  ~/build.sh
+|4,39,5,0,1706524076,"~/build.sh"
 -'  1  0  ~/build.sh
 |4,39,1,0,1706524068,"~/build.sh"
 -'  1  0  ~/build.sh
@@ -99,162 +233,38 @@
 |4,39,1,0,1706524068,"~/build.sh"
 -'  1  0  ~/build.sh
 |4,39,1,0,1706524068,"~/build.sh"
--'  9  0  ~/docker-compose.yml
-|4,39,9,0,1706523987,"~/docker-compose.yml"
--'  9  0  ~/docker-compose.yml
-|4,39,9,0,1706523987,"~/docker-compose.yml"
--'  9  0  ~/docker-compose.yml
-|4,39,9,0,1706523987,"~/docker-compose.yml"
--'  9  0  ~/docker-compose.yml
-|4,39,9,0,1706523987,"~/docker-compose.yml"
--'  9  0  ~/docker-compose.yml
-|4,39,9,0,1706523987,"~/docker-compose.yml"
--'  9  0  ~/docker-compose.yml
-|4,39,9,0,1706523987,"~/docker-compose.yml"
--'  9  0  ~/docker-compose.yml
-|4,39,9,0,1706523987,"~/docker-compose.yml"
--'  9  0  ~/docker-compose.yml
-|4,39,9,0,1706523987,"~/docker-compose.yml"
--'  9  0  ~/docker-compose.yml
-|4,39,9,0,1706523987,"~/docker-compose.yml"
--'  9  0  ~/docker-compose.yml
-|4,39,9,0,1706523987,"~/docker-compose.yml"
--'  9  0  ~/docker-compose.yml
-|4,39,9,0,1706523987,"~/docker-compose.yml"
--'  9  0  ~/docker-compose.yml
-|4,39,9,0,1706523987,"~/docker-compose.yml"
--'  9  0  ~/docker-compose.yml
-|4,39,9,0,1706523987,"~/docker-compose.yml"
--'  9  0  ~/docker-compose.yml
-|4,39,9,0,1706523987,"~/docker-compose.yml"
--'  9  0  ~/docker-compose.yml
-|4,39,9,0,1706523987,"~/docker-compose.yml"
--'  9  0  ~/docker-compose.yml
-|4,39,9,0,1706523987,"~/docker-compose.yml"
--'  1  0  ~/docker-compose.yml
-|4,39,1,0,1706523979,"~/docker-compose.yml"
--'  1  0  ~/docker-compose.yml
-|4,39,1,0,1706523979,"~/docker-compose.yml"
--'  1  0  ~/docker-compose.yml
-|4,39,1,0,1706523979,"~/docker-compose.yml"
--'  1  0  ~/docker-compose.yml
-|4,39,1,0,1706523979,"~/docker-compose.yml"
--'  1  0  ~/docker-compose.yml
-|4,39,1,0,1706523979,"~/docker-compose.yml"
--'  1  0  ~/docker-compose.yml
-|4,39,1,0,1706523979,"~/docker-compose.yml"
--'  1  0  ~/docker-compose.yml
-|4,39,1,0,1706523979,"~/docker-compose.yml"
--'  1  0  ~/docker-compose.yml
-|4,39,1,0,1706523979,"~/docker-compose.yml"
--'  1  0  ~/docker-compose.yml
-|4,39,1,0,1706523979,"~/docker-compose.yml"
--'  1  0  ~/docker-compose.yml
-|4,39,1,0,1706523979,"~/docker-compose.yml"
--'  1  0  ~/docker-compose.yml
-|4,39,1,0,1706523979,"~/docker-compose.yml"
--'  1  0  ~/docker-compose.yml
-|4,39,1,0,1706523979,"~/docker-compose.yml"
--'  1  0  ~/docker-compose.yml
-|4,39,1,0,1706523979,"~/docker-compose.yml"
--'  1  0  ~/docker-compose.yml
-|4,39,1,0,1706523979,"~/docker-compose.yml"
--'  1  0  ~/docker-compose.yml
-|4,39,1,0,1706523979,"~/docker-compose.yml"
--'  1  0  ~/docker-compose.yml
-|4,39,1,0,1706523979,"~/docker-compose.yml"
--'  24  0  ~/Dockerfile
-|4,39,24,0,1706523898,"~/Dockerfile"
--'  24  0  ~/Dockerfile
-|4,39,24,0,1706523898,"~/Dockerfile"
--'  24  0  ~/Dockerfile
-|4,39,24,0,1706523898,"~/Dockerfile"
--'  24  0  ~/Dockerfile
-|4,39,24,0,1706523898,"~/Dockerfile"
--'  24  0  ~/Dockerfile
-|4,39,24,0,1706523898,"~/Dockerfile"
--'  24  0  ~/Dockerfile
-|4,39,24,0,1706523898,"~/Dockerfile"
--'  24  0  ~/Dockerfile
-|4,39,24,0,1706523898,"~/Dockerfile"
--'  24  0  ~/Dockerfile
-|4,39,24,0,1706523898,"~/Dockerfile"
--'  24  0  ~/Dockerfile
-|4,39,24,0,1706523898,"~/Dockerfile"
--'  24  0  ~/Dockerfile
-|4,39,24,0,1706523898,"~/Dockerfile"
--'  24  0  ~/Dockerfile
-|4,39,24,0,1706523898,"~/Dockerfile"
--'  24  0  ~/Dockerfile
-|4,39,24,0,1706523898,"~/Dockerfile"
--'  24  0  ~/Dockerfile
-|4,39,24,0,1706523898,"~/Dockerfile"
--'  24  0  ~/Dockerfile
-|4,39,24,0,1706523898,"~/Dockerfile"
--'  24  0  ~/Dockerfile
-|4,39,24,0,1706523898,"~/Dockerfile"
--'  24  0  ~/Dockerfile
-|4,39,24,0,1706523898,"~/Dockerfile"
--'  24  0  ~/Dockerfile
-|4,39,24,0,1706523898,"~/Dockerfile"
--'  24  0  ~/Dockerfile
-|4,39,24,0,1706523898,"~/Dockerfile"
--'  24  0  ~/Dockerfile
-|4,39,24,0,1706523898,"~/Dockerfile"
--'  24  0  ~/Dockerfile
-|4,39,24,0,1706523898,"~/Dockerfile"
--'  24  0  ~/Dockerfile
-|4,39,24,0,1706523898,"~/Dockerfile"
--'  24  0  ~/Dockerfile
-|4,39,24,0,1706523898,"~/Dockerfile"
--'  24  0  ~/Dockerfile
-|4,39,24,0,1706523898,"~/Dockerfile"
--'  24  0  ~/Dockerfile
-|4,39,24,0,1706523898,"~/Dockerfile"
--'  24  0  ~/Dockerfile
-|4,39,24,0,1706523898,"~/Dockerfile"
--'  24  0  ~/Dockerfile
-|4,39,24,0,1706523898,"~/Dockerfile"
--'  24  0  ~/Dockerfile
-|4,39,24,0,1706523898,"~/Dockerfile"
--'  24  0  ~/Dockerfile
-|4,39,24,0,1706523898,"~/Dockerfile"
--'  24  0  ~/Dockerfile
-|4,39,24,0,1706523898,"~/Dockerfile"
--'  24  0  ~/Dockerfile
-|4,39,24,0,1706523898,"~/Dockerfile"
--'  24  0  ~/Dockerfile
-|4,39,24,0,1706523898,"~/Dockerfile"
--'  24  0  ~/Dockerfile
-|4,39,24,0,1706523898,"~/Dockerfile"
--'  1  0  ~/Dockerfile
-|4,39,1,0,1706523888,"~/Dockerfile"
--'  1  0  ~/Dockerfile
-|4,39,1,0,1706523888,"~/Dockerfile"
--'  1  0  ~/Dockerfile
-|4,39,1,0,1706523888,"~/Dockerfile"
--'  1  0  ~/Dockerfile
-|4,39,1,0,1706523888,"~/Dockerfile"
--'  1  0  ~/Dockerfile
-|4,39,1,0,1706523888,"~/Dockerfile"
--'  1  0  ~/Dockerfile
-|4,39,1,0,1706523888,"~/Dockerfile"
+-'  1  0  ~/build.sh
+|4,39,1,0,1706524068,"~/build.sh"
+-'  1  0  ~/build.sh
+|4,39,1,0,1706524068,"~/build.sh"
+-'  1  0  ~/build.sh
+|4,39,1,0,1706524068,"~/build.sh"
+-'  1  0  ~/build.sh
+|4,39,1,0,1706524068,"~/build.sh"
+-'  1  0  ~/build.sh
+|4,39,1,0,1706524068,"~/build.sh"
+-'  1  0  ~/build.sh
+|4,39,1,0,1706524068,"~/build.sh"
+-'  1  0  ~/build.sh
+|4,39,1,0,1706524068,"~/build.sh"
 
 # History of marks within files (newest to oldest):
 
 > ~/.dockerignore
-	*	1706524679	0
-	"	6	0
-	^	6	0
-	.	5	9
+	*	1706610718	0
+	"	11	0
+	^	11	0
+	.	10	9
 	+	5	9
+	+	10	9
 
 > ~/.gitignore
-	*	1706524643	0
-	"	8	0
-	^	8	0
-	.	7	9
+	*	1706610680	0
+	"	15	0
+	^	15	0
+	.	14	9
 	+	7	9
+	+	14	9
 
 > ~/deploy.sh
 	*	1706524118	0
