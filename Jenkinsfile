@@ -4,7 +4,7 @@ pipeline{
        maven'local_maven'
    }
    parameters {
-         string{name: 'tomcat_staging', defaultvalue: '18.230.92.24', description: 'Remote staging server'}
+         string{name: 'tomcat_staging', defaultvalue: '18.230.123.32' description: 'Remote staging server'}
    }
    stages{
       stage('Build'){
