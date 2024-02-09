@@ -7,7 +7,7 @@ pipeline{
    stages{
       stage{'Deploy to Remte'}{
          steps{
-            sh ${workspace}/* root@{staging_server}:/var/www/html/applicationdeploy/'
+            sh 'scp -r ${workspace}/* root@{staging_server}:/var/www/html/applicationdeploy/'
          }
       }
    }
