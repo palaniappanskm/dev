@@ -34,6 +34,7 @@ pipeline {
             steps {
                 // Run tests to verify deployment
                 // Example: sh 'mvn test'
+                sh 'mvn test'
             }
         }
     }
