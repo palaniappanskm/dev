@@ -1,29 +1,14 @@
 pipeline{
    agent any
-   tools{
-       maven'local_maven'
+   environent{  
+      staging_server=""
    }
-   parameters {
-         string{name: 'tomcat_staging', defaultvalue: '18.230.92.24', description: 'Remote staging server'}
-   }
+
    stages{
-      stage('Build'){
+      stage{'Deploy to Remte'}{
          steps{
-             sh 'mvn clean package'
-         }
-         post{
-            success{
-                echo "Arciving the Artifacts"
-                archiveArtifacts artifacts: '**/target/*.war'
-            }
+            sh ${workspace}/* root@{staging_server}:/var/www/html/applicationdeploy/'
          }
       }
-      stage ('Deployments') {
-         parallel{
-             stage ("Deploy to staging"){
-          steps{
-              sh "scp -v -o strictHostkeychecking=no **/*.war root@${params.tomcat_staging}:/opt/tomcat/webapps/"
-          }
-      }
-  }
+   }
 }
