@@ -5,26 +5,45 @@ pipeline {
         stage('Install Tomcat') {
             steps {
                 script {
-                    sh 'wget http://mirror.novg.net/apache/tomcat/tomcat-10/v10.1.18/bin/apache-tomcat-10.1.18.tar.gz'
-                    sh 'tar -xzf apache-tomcat-9.0.52.tar.gz'
+                    sshagent(['docker-host-ssh-keys']) {
+                    sh '''
+                            ssh -o StrictHostKeyChecking=no ec2-user@ec2-18-230-123-32.sa-east-1.compute.amazonaws.com '
+                                wget http://mirror.novg.net/apache/tomcat/tomcat-10/v10.1.18/bin/apache-tomcat-10.1.18.tar.gz &&
+                                tar -xzf apache-tomcat-10.1.18.tar.gz &&
+                                mv apache-tomcat-10.1.18 /opt/tomcat &&
+                                chmod +x /opt/tomcat/bin/*.sh &&
+                                /opt/tomcat/bin/startup.sh
+                            '
+                        '''
+                    }
                 }
             }
         }
     }
 stage('Start Tomcat') {
-    steps {stage('Stop Tomcat') {
     steps {
         script {
-            sh './apache-tomcat-10.1.18./bin/shutdown.sh'
+            sh './apache-tomcat-10.1.18/bin/startup.sh'
         }
     }
 }
-stage('Stop Tomcat') {
-    steps {
-        script {
-            sh './apache-tomcat-10.1.18./bin/shutdown.sh'
+stages {
+        stage('Restart Tomcat') {
+            steps {
+                script {
+                    sshagent(['SSH_CREDENTIALS_ID']) {
+                        // Restart Tomcat on remote server
+                        sh '''
+                            ssh -o StrictHostKeyChecking=no ec2-user@ec2-18-230-123-32.sa-east-1.compute.amazonaws.com '
+                                /opt/tomcat/bin/shutdown.sh &&
+                                sleep 5 &&
+                                /opt/tomcat/bin/startup.sh
+                            '
+                        '''
+                    }
+                }
+            }
         }
     }
-}
 }
 
